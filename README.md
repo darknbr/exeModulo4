@@ -14,7 +14,7 @@ número do chassi: obrigatório
 
 anoFabricação: obrigatório
 
-combustível: obrigatório
+combustível: opcional
 
 Por exemplo, suponha a classe Aviao com os atributos:
 

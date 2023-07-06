@@ -18,11 +18,8 @@ public class App {
          scanner.nextLine();
          String combustivel = scanner.nextLine();
 
-         Carro carro = new Carro();
-         carro.setNumeroDePortas(numeroDePortas);
+         Carro carro = new Carro(numeroDePortas, numeroDoChassi, anoDeFabricacao);
          carro.setCor(cor);
-         carro.setNumeroDoChassi(numeroDoChassi);
-         carro.setAnoDeFabricacao(anoDeFabricacao);
          carro.setCombustivel(combustivel);
 
          System.out.println("Carro cadastrado com sucesso!!!");
